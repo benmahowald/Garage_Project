@@ -1,0 +1,50 @@
+html, body {
+  margin: auto auto;
+  background-color: #afafaf;
+  text-align: center;
+  color: #333;
+  font-family: arial, sans-serif;
+}
+input {
+  padding: 10px;
+  margin: 5px;
+  font-size: medium;
+  font-weight: lighter;
+}
+.static{
+  padding: 7px;
+  margin: 20px 10px;
+  border-radius: 4px;
+  font-size: medium;
+  font-weight: lighter;
+  border: 1px solid #111;
+  cursor: pointer;
+}
+.static:hover {
+  color: #afafaf;
+  background-color: #333;
+}
+.takeout {
+  border-radius: 4px;
+  font-size: medium;
+  font-weight: lighter;
+  border: 1px solid #111;
+  cursor: pointer;
+  margin: 10px;
+  padding: 4px;
+}
+.forbesBestCar {
+  border: 2px solid red;
+}
+.aCarInTheGarage {
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid blue;
+  box-sizing: border-box;
+}
+.show {
+  display: block;
+}
+.hide {
+  display: none;
+}
